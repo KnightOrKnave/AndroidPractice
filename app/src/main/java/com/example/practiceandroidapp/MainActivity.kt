@@ -40,5 +40,23 @@ class MainActivity : AppCompatActivity() {
                     .startActivity(Intent(view.context, Pract3Activity::class.java))
             }
         }
+        //set pract4 button
+        findViewById<Button>(R.id.button4).setOnClickListener{view ->
+            run {
+                Log.i("button", "button4 clicked")
+                val context = view
+                    .context
+                    .startActivity(Intent(view.context, Pract4Activity::class.java))
+            }
+        }
+        //set pract5 button
+        findViewById<Button>(R.id.button5).setOnClickListener{view ->
+            run {
+                Log.i("button", "button4 clicked")
+                val context = view
+                    .context
+                    .startActivity(Intent(view.context, Pract5Activity::class.java))
+            }
+        }
     }
 }
