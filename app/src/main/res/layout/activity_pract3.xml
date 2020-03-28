@@ -5,5 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Pract3Activity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Flagment1"
+            android:name="com.example.practiceandroidapp.Pract3Fragment"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
