@@ -22,5 +22,14 @@ class MainActivity : AppCompatActivity() {
                     .startActivity(Intent(view.context, Pract1Activity::class.java))
             }
         }
+        //set pract2 button
+        findViewById<Button>(R.id.button2).setOnClickListener{view ->
+            run {
+                Log.i("button", "button2 clicked")
+                val context = view
+                    .context
+                    .startActivity(Intent(view.context, Pract2Activity::class.java))
+            }
+        }
     }
 }
